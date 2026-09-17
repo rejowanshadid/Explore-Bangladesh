@@ -72,7 +72,6 @@ HTML	Website Structure
 CSS	Website Styling
 JavaScript	Client-Side Functionality
 XAMPP	Local Development Server
-📸 Screenshots
 ## 📸 Screenshots
 
 ### 🔐 Login Page
@@ -85,15 +84,15 @@ XAMPP	Local Development Server
 
 ### 🛠️ Admin Page
 
-![Admin Page](screenshots/admin%20page.png)
+![Admin Page](screenshots/admin-page.png)
 
 ### 👤 Customer Page
 
-![Customer Page](screenshots/customer%20page.png)
+![Customer Page](screenshots/customer-page.png)
 
 ### 💼 Sales Page
 
-![Sales Page](screenshots/sales%20page.png)
+![Sales Page](screenshots/sales-page.png)
 👥 Team Members
 Name	Role
 Rejowan Al Shadid	Developer

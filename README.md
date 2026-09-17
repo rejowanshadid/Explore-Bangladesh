@@ -73,15 +73,27 @@ CSS	Website Styling
 JavaScript	Client-Side Functionality
 XAMPP	Local Development Server
 📸 Screenshots
-🏠 Home Page
-Add your homepage screenshot here.
-<img width="1060" height="706" alt="Screenshot 2026-09-17 at 6 43 12 PM" src="https://github.com/user-attachments/assets/ea8f8986-848e-4324-95e6-822b1cd68eff" />
-🔐 Login Page
-Add your login page screenshot here.
-<img width="1266" height="766" alt="Screenshot 2026-09-17 at 6 44 33 PM" src="https://github.com/user-attachments/assets/8a5b3395-7d5f-4cab-b3ee-3140ce2a6bed" />
-<img width="1270" height="756" alt="Screenshot 2026-09-17 at 6 45 41 PM" src="https://github.com/user-attachments/assets/b69f57f5-558b-4403-8ce6-af4b9cd5d630" />
-<img width="1270" height="756" alt="Screenshot 2026-09-17 at 6 46 12 PM" src="https://github.com/user-attachments/assets/840c3fb0-d407-4fde-9cf9-d5ba1844a204" />
-<img width="1270" height="756" alt="Screenshot 2026-09-17 at 6 48 38 PM" src="https://github.com/user-attachments/assets/f6ca5659-9d8c-41d5-a30b-02af2b82ff52" />
+## 📸 Screenshots
+
+### 🔐 Login Page
+
+![Login Page](screenshots/login.png)
+
+### 👤 Profile Page
+
+![Profile Page](screenshots/profile.png)
+
+### 🛠️ Admin Page
+
+![Admin Page](screenshots/admin%20page.png)
+
+### 👤 Customer Page
+
+![Customer Page](screenshots/customer%20page.png)
+
+### 💼 Sales Page
+
+![Sales Page](screenshots/sales%20page.png)
 👥 Team Members
 Name	Role
 Rejowan Al Shadid	Developer

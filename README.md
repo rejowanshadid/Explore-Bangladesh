@@ -40,38 +40,62 @@ simple and user-friendly web interface.
 ## 📁 Project Structure
 
 ```text
-wtechfinal3/
+explorebd/
+│
+├── bdtour.sql
 │
 ├── Controller/
-│   ├── login-controller.php
 │   ├── ...
 │
 ├── Model/
 │   ├── ...
 │
-└── View/
-    ├── ...
+├── View/
+│   ├── ...
+│
+└── screenshots/
+    ├── admin-page.png
+    ├── customer-page.png
+    ├── login.png
+    ├── profile.png
+    └── sales-page.png
+```
 
-Controller
+### Controller
+
 Contains the PHP files responsible for handling user requests,
 form submissions, authentication, and other application logic.
-Model
+
+### Model
+
 Contains the files responsible for database-related operations
 and data management.
-View
+
+### View
+
 Contains the user interface pages of the application, including
 HTML, CSS, JavaScript, and PHP-based pages.
-Database
-bdtour.sql contains the SQL database structure and data required
+
+### Database
+
+`bdtour.sql` contains the SQL database structure and data required
 for the project.
-🛠️ Technologies Used
-Technology	Purpose
-PHP	Backend Development
-MySQL	Database Management
-HTML	Website Structure
-CSS	Website Styling
-JavaScript	Client-Side Functionality
-XAMPP	Local Development Server
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| PHP | Backend Development |
+| MySQL | Database Management |
+| HTML | Website Structure |
+| CSS | Website Styling |
+| JavaScript | Client-Side Functionality |
+| XAMPP | Local Development Server |
+
+---
+
 ## 📸 Screenshots
 
 ### 🔐 Login Page
@@ -93,24 +117,36 @@ XAMPP	Local Development Server
 ### 💼 Sales Page
 
 ![Sales Page](screenshots/sales-page.png)
-👥 Team Members
-Name	Role
-Rejowan Al Shadid	Developer
-Frank Heaven Mondol	Developer
 
-Update the team member names and roles according to your project.
-🎯 Project Objective
-The main objective of Explore Bangladesh is to provide an easy-to-use
+---
+
+## 👥 Team Members
+
+| Name | Role |
+|------|------|
+| Rejowan Al Shadid | Developer |
+| Frank Heaven Mondol | Developer |
+
+---
+
+## 🎯 Project Objective
+
+The main objective of **Explore Bangladesh** is to provide an easy-to-use
 online platform where users can explore tourist destinations and tour
 packages in Bangladesh.
+
 The project aims to make tourism information more accessible and provide
 a convenient way for users to manage their tourism-related activities.
-🚀 Future Improvements
-Online Payment Integration
-Google Maps Integration
-Online Hotel Reservation
-Tourist Reviews and Ratings
-Advanced Search and Filtering
-Mobile Application
-Email Notifications
-Online Booking Confirmation
+
+---
+
+## 🚀 Future Improvements
+
+- 💳 Online Payment Integration
+- 🗺️ Google Maps Integration
+- 🏨 Online Hotel Reservation
+- ⭐ Tourist Reviews and Ratings
+- 🔎 Advanced Search and Filtering
+- 📱 Mobile Application
+- 📧 Email Notifications
+- 🎫 Online Booking Confirmation

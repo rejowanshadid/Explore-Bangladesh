@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(242, 242, 242);
+}
+
+
+
+
+.container {
+    display: flex;
+}
+
+
+
+
+.main {
+    flex: 1;
+    padding: 30px;
+}
+
+
+
+
+.package-form {
+    background-color: rgb(255, 255, 255);
+
+    padding: 25px;
+
+    border: 1px solid rgb(221, 221, 221);
+
+    border-radius: 8px;
+
+    box-shadow: 0 2px 6px rgb(220, 220, 220);
+
+    margin-bottom: 25px;
+}
+
+
+.package-form h2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+
+    color: rgb(7, 67, 50);
+}
+
+
+
+
+.form {
+    width: 500px;
+}
+
+
+.form label {
+    display: block;
+
+    margin-top: 15px;
+    margin-bottom: 6px;
+
+    font-weight: bold;
+
+    color: rgb(51, 51, 51);
+}
+
+
+.form input[type="text"],
+.form input[type="file"],
+.form textarea {
+    width: 100%;
+
+    padding: 10px;
+
+    box-sizing: border-box;
+
+    border: 1px solid rgb(204, 204, 204);
+
+    border-radius: 4px;
+
+    font-family: Arial, sans-serif;
+}
+
+
+.form textarea {
+    height: 100px;
+
+    resize: vertical;
+}
+
+
+
+
+.save-btn {
+    margin-top: 20px;
+
+    padding: 10px 22px;
+
+    border: none;
+
+    border-radius: 4px;
+
+    background-color: rgb(7, 67, 50);
+
+    color: white;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+.save-btn:hover {
+    background-color: rgb(5, 52, 39);
+}
+
+
+
+
+.existing-packages {
+    background-color: rgb(255, 255, 255);
+
+    padding: 25px;
+
+    border: 1px solid rgb(221, 221, 221);
+
+    border-radius: 8px;
+
+    box-shadow: 0 2px 6px rgb(220, 220, 220);
+}
+
+
+.existing-packages h2 {
+    margin-top: 0;
+
+    margin-bottom: 20px;
+
+    color: rgb(7, 67, 50);
+}
+
+
+
+
+table {
+    width: 100%;
+
+    border-collapse: collapse;
+}
+
+
+th,
+td {
+    border: 1px solid rgb(204, 204, 204);
+
+    padding: 12px;
+
+    text-align: center;
+}
+
+
+th {
+    background-color: rgb(216, 243, 220);
+
+    color: rgb(51, 51, 51);
+}
+
+
+
+
+.edit-btn {
+    padding: 8px 14px;
+
+    border: none;
+
+    border-radius: 4px;
+
+    background-color: rgb(52, 152, 219);
+
+    color: white;
+
+    cursor: pointer;
+}
+
+
+.edit-btn:hover {
+    background-color: rgb(41, 128, 185);
+}

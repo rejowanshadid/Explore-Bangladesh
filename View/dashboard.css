@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(245, 245, 245);
+}
+
+
+
+
+.container {
+    display: flex;
+}
+
+
+
+.main {
+    flex: 1;
+    padding: 30px;
+}
+
+
+
+
+.welcome-box {
+    background-color: rgb(228, 222, 164);
+
+    padding: 25px;
+
+    border: 1px solid rgb(220, 220, 220);
+
+    border-radius: 10px;
+
+    box-shadow: 0 2px 6px rgb(220, 220, 220);
+
+    margin-bottom: 25px;
+}
+
+
+.welcome-box h3 {
+    text-align: center;
+
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    color: rgb(7, 67, 50);
+}
+
+
+.welcome-box h2 {
+    margin: 0;
+
+    color: rgb(45, 45, 45);
+}
+
+
+
+
+.dashboard-sections {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 25px;
+
+    margin-bottom: 25px;
+}
+
+
+.dashboard-box {
+    background-color: rgb(255, 255, 255);
+
+    padding: 25px;
+
+    min-height: 120px;
+
+    border: 1px solid rgb(220, 220, 220);
+
+    border-radius: 10px;
+
+    box-shadow: 0 2px 6px rgb(220, 220, 220);
+}
+
+
+.dashboard-box h3 {
+    text-align: center;
+
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    color: rgb(7, 67, 50);
+}
+
+
+.dashboard-box h4 {
+    margin-bottom: 10px;
+
+    color: rgb(45, 45, 45);
+}
+
+
+.dashboard-box p {
+    color: rgb(70, 70, 70);
+
+    margin-bottom: 18px;
+}
+
+
+
+
+.dashboard-box button {
+    background-color: rgb(7, 67, 50);
+
+    color: white;
+
+    border: none;
+
+    border-radius: 5px;
+
+    padding: 9px 25px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+.dashboard-box button:hover {
+    background-color: rgb(5, 52, 39);
+}
+
+
+
+.booking-status {
+    background-color: rgb(255, 255, 255);
+
+    padding: 25px;
+
+    border: 1px solid rgb(220, 220, 220);
+
+    border-radius: 10px;
+
+    box-shadow: 0 2px 6px rgb(220, 220, 220);
+
+    margin-top: 0;
+}
+
+
+.booking-status h3 {
+    text-align: center;
+
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    color: rgb(7, 67, 50);
+}
+
+
+.booking-status h4 {
+    margin-bottom: 15px;
+
+    color: rgb(45, 45, 45);
+}
+
+
+.booking-status p {
+    margin-bottom: 0;
+
+    color: rgb(80, 80, 80);
+}

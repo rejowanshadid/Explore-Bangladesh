@@ -1,0 +1,143 @@
+body{
+    background-color:white;
+    font-family:Arial;
+}
+
+
+h1{
+    font-size:32px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+
+.explore{
+    color:rgb(0, 106, 78);
+}
+
+
+.bangladesh{
+    color:rgb(220, 160, 0);
+}
+
+
+.registration-info{
+    border:2px solid rgb(0, 106, 78);
+    border-radius:8px;
+    padding:35px 50px;
+    width:600px;
+    background-color:rgb(240, 248, 245);
+    box-shadow:0px 4px 12px rgb(200, 210, 205);
+}
+
+
+.registration-info legend{
+    color:rgb(0, 106, 78);
+    font-size:18px;
+    font-weight:bold;
+}
+
+
+.registration-info h2{
+    text-align:center;
+    color:rgb(40, 40, 40);
+    margin-bottom:5px;
+}
+
+
+.registration-text{
+    text-align:center;
+    color:gray;
+    font-size:14px;
+}
+
+
+.personal-info,
+.account-info{
+    border:1px solid rgb(0, 106, 78);
+    border-radius:5px;
+    padding:25px;
+    background-color:white;
+}
+
+
+.personal-info legend,
+.account-info legend{
+    color:rgb(0, 106, 78);
+    font-weight:bold;
+}
+
+
+.personal-info label,
+.account-info label{
+    display:inline-block;
+    width:145px;
+}
+
+
+.personal-info input[type="text"],
+.personal-info select,
+.account-info input[type="text"],
+.account-info input[type="password"]{
+    width:280px;
+    height:25px;
+    padding:5px;
+    border:1px solid gray;
+    border-radius:4px;
+}
+
+
+.personal-info textarea{
+    width:280px;
+    height:45px;
+    padding:5px;
+    border:1px solid gray;
+    border-radius:4px;
+}
+
+
+input:focus,
+select:focus,
+textarea:focus{
+    background-color:rgb(220, 240, 232);
+}
+
+
+.personal-info input[type="radio"]{
+    width:auto;
+}
+
+
+.register-btn{
+    background-color:rgb(0, 106, 78);
+    color:white;
+    border:1px solid rgb(0, 106, 78);
+    border-radius:5px;
+    padding:10px 40px;
+    font-weight:bold;
+    display:block;
+    margin:auto;
+    cursor:pointer;
+}
+
+
+.register-btn:hover{
+    background-color:rgb(0, 80, 60);
+}
+
+.back-btn{
+    background-color:white;
+    color:rgb(0, 106, 78);
+    border:1px solid rgb(0, 106, 78);
+    border-radius:5px;
+    padding:8px 30px;
+    text-decoration:none;
+    display:block;
+    width:fit-content;
+    margin:auto;
+}
+
+
+.back-btn:hover{
+    background-color:rgb(220, 240, 232);
+}

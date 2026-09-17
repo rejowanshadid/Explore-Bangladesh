@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(242, 242, 242);
+}
+
+.container {
+    display: flex;
+}
+
+.main {
+    flex: 1;
+    padding: 30px;
+}
+
+.create-btn {
+    padding: 12px 35px;
+    background-color: rgb(216, 243, 220);
+    border: 1px solid rgb(7, 67, 50);
+    border-radius: 6px;
+    font-weight: bold;
+    color: rgb(7, 67, 50);
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.create-btn:hover {
+    background-color: rgb(183, 228, 199);
+}
+
+.user-management {
+    background-color: white;
+    margin-top: 30px;
+    padding: 25px;
+    border: 1px solid rgb(210, 210, 210);
+    border-radius: 8px;
+}
+
+.user-management h2 {
+    text-align: center;
+    margin-top: 0;
+    color: rgb(7, 67, 50);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 15px 10px;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(216, 243, 220);
+    color: rgb(51, 51, 51);
+}
+
+td {
+    border-bottom: 1px solid rgb(220, 220, 220);
+    color: rgb(60, 60, 60);
+}
+
+.bottom-buttons {
+    display: flex;
+    gap: 35px;
+    margin-top: 30px;
+}
+
+.bottom-buttons button, 
+.action-links a {
+    padding: 12px 30px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.update-btn {
+    background-color: rgb(52, 152, 219);
+    color: white;
+    border: none;
+}
+
+.update-btn:hover {
+    background-color: rgb(41, 128, 185);
+}
+
+.suspend-btn {
+    background-color: rgb(211, 47, 47);
+    color: white;
+    border: none;
+}
+
+.suspend-btn:hover {
+    background-color: rgb(183, 28, 28);
+}
+
+
+.update-btn, .suspend-btn {
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    font-size: 14px; 
+}
+
+.update-btn {
+    background-color: rgb(52, 152, 219);
+    color: white;
+}
+
+.update-btn:hover {
+    background-color: rgb(41, 128, 185);
+}
+
+.suspend-btn {
+    background-color: rgb(211, 47, 47);
+    color: white;
+}
+
+.suspend-btn:hover {
+    background-color: rgb(183, 28, 28);
+}

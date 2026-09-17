@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(242, 242, 242);
+}
+
+
+
+
+.container {
+    display: flex;
+}
+
+
+
+.main {
+    flex: 1;
+    padding: 30px;
+}
+
+.main h1 {
+    margin-bottom: 5px;
+}
+
+
+
+
+.dashboard-boxes {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 20px;
+
+    margin-top: 25px;
+}
+
+
+.dashboard-box {
+    background-color: rgb(255, 255, 255);
+
+    border: 1px solid rgb(221, 221, 221);
+
+    padding: 25px;
+
+    text-align: center;
+}
+
+
+.dashboard-box h3 {
+    margin-top: 0;
+    color: rgb(7, 67, 50);
+}
+
+
+.dashboard-box p {
+    font-size: 30px;
+    font-weight: bold;
+
+    margin: 10px 0 0;
+
+    color: rgb(52, 152, 219);
+}
+
+
+
+
+.recent-bookings {
+    background-color: rgb(255, 255, 255);
+
+    padding: 20px;
+
+    margin-top: 25px;
+
+    border: 1px solid rgb(221, 221, 221);
+}
+
+
+.recent-bookings h3 {
+    margin-top: 0;
+}
+
+
+
+
+table {
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-top: 15px;
+}
+
+
+th,
+td {
+    border: 1px solid rgb(204, 204, 204);
+
+    padding: 12px;
+
+    text-align: center;
+}
+
+
+th {
+    background-color: rgb(216, 243, 220);
+
+    color: rgb(51, 51, 51);
+}
+
+
+
+
+button {
+    border: none;
+
+    padding: 8px 12px;
+
+    color: white;
+
+    cursor: pointer;
+}
+
+
+
+
+.confirm {
+    background-color: rgb(46, 125, 50);
+}
+
+.confirm:hover {
+    background-color: rgb(27, 94, 32);
+}
+
+
+
+
+.cancel {
+    background-color: rgb(211, 47, 47);
+}
+
+.cancel:hover {
+    background-color: rgb(183, 28, 28);
+}
+
+
+
+
+.view {
+    background-color: rgb(52, 152, 219);
+}
+
+.view:hover {
+    background-color: rgb(41, 128, 185);
+}
